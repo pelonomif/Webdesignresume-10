@@ -72,9 +72,7 @@ body{
     overflow:unset;
     padding:2rem;
 }
-.contents{
-    margin-left:2%;
-}
+
 @media only screen and (min-width:768px){
     .contents{
         display:block;}
@@ -87,10 +85,7 @@ body{
     .contents{
         display:inline-flex;}
 }
-#right-section{
-    margin-left:0%
 
-}
 #profilepicture{
     width: 30%;
     height:45%;
