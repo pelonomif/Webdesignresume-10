@@ -1,19 +1,20 @@
-h1{
+.display-2{
     color:black;
     font-size:200%;
     font-weight:bold;
+    padding: 2rem;
 }
-h2{
+.h2{
     color:rgb(5, 5, 5);
     font-weight:bold;
     font-size:150%
 }
-h3{
+.h3{
     color:rgb(10, 7, 7);
     font-weight:600;
     font-size:120%
 }
-h4{
+.h4{
     color:rgb(2, 1, 1);
     font-weight:500;
     font-size:100%;
@@ -86,12 +87,7 @@ body{
         display:inline-flex;}
 }
 
-#profilepicture{
-    width: 30%;
-    height:45%;
-    border:solid 5px orangered;
-    border-radius: 50%;
-}
+
 a{
     color:black;
 }
@@ -126,17 +122,20 @@ a:hover{
     list-style-type: disc;
     margin-top:2rem;
 }
-#bulletlist{
+.list-styled{
     list-style-type: disc;
     padding:2%;
 }
 .icons{
     width:2rem;
     height:2rem;
+  
 }
+
 .box{
     margin-top:2em;
     padding:0%;
+    display:block;
 }
 @media only screen and (min-width: 600px){
     .box{
@@ -144,12 +143,16 @@ a:hover{
 }
 @media only screen and (min-width:768px){
     .box{
-        display:inline-block;}
+        display:block;}
 }
 @media only screen and (min-width: 992px){
     .box{
         display:block;
         margin-bottom:10px;}
+}
+.contact{
+    width:2rem;
+    height:2rem;
 }
 footer{
     text-align: center;
